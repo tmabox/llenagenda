@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Llenagenda.com | Tu agenda llena sin contestar llamadas</title>
+<meta name="description" content="Automatiza tu agenda, confirma citas por WhatsApp y reduce no-shows. Hecho para negocios de Chihuahua.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif}
+  .pulse{animation:pulse 1.8s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.5)}70%{box-shadow:0 0 0 14px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
+  .sticky-cta{position:fixed;bottom:0;left:0;right:0;z-index:50}
+</style>
+</head>
+<body class="bg-white text-slate-900">
+
+<!-- BARRA URGENCIA -->
+<div class="bg-black text-white text-center text-[13px] md:text-sm py-2 px-3 font-semibold">
+  🔥 Solo 10 lugares Fundador a $5,990 &nbsp;|&nbsp; Quedan <span class="text-green-400">4 lugares</span> esta semana
+</div>
+
+<!-- HEADER CON LOGO -->
+<nav class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+  <!-- LOGO LLENAGENDA -->
+  <a href="#" class="flex items-center gap-2.5">
+    <span class="w-10 h-10 md:w-11 md:h-11 rounded-full bg-[#22C55E] flex items-center justify-center shrink-0">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+        <rect x="2.5" y="3" width="19" height="18" rx="2" stroke="white" stroke-width="1.8"/>
+        <rect x="5.5" y="7.5" width="4" height="4" rx="1" fill="white"/>
+        <rect x="10" y="7.5" width="4" height="4" rx="1" fill="white"/>
+        <rect x="14.5" y="7.5" width="4" height="4" rx="1" fill="white"/>
+        <rect x="5.5" y="13.5" width="4" height="4" rx="1" fill="white"/>
+        <rect x="10" y="13.5" width="4" height="4" rx="1" fill="white"/>
+        <rect x="14.5" y="13.5" width="4" height="4" rx="1" fill="white"/>
+      </svg>
+    </span>
+    <span class="text-[22px] md:text-[24px] font-extrabold tracking-tight leading-none">Llenagenda<span class="text-green-500">.com</span></span>
+  </a>
+  <a href="https://wa.me/526145122324?text=Hola%20Llenagenda,%20quiero%20mi%20lugar%20Fundador" target="_blank" class="bg-black text-white text-sm font-bold px-4 py-2.5 rounded-full">Apartar lugar →</a>
+</nav>
+
+<!-- HERO -->
+<header class="max-w-6xl mx-auto px-5 pt-6 pb-8 md:pt-10 md:pb-12 text-center">
+  <div class="inline-flex items-center gap-2 bg-green-50 border border-green-200 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full">
+    <span class="w-2 h-2 bg-green-500 rounded-full"></span> PARA NEGOCIOS LOCALES
+  </div>
+  <h1 class="text-4xl md:text-6xl font-black leading-[1.05] mt-5">
+    Tu agenda llena<br>
+    <span class="text-green-600">sin contestar llamadas.</span>
+  </h1>
+  <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mt-4">
+    Tus clientes reservan solos por WhatsApp y Google. Tú solo te dedicas a atender.
+    <b class="text-slate-900">Sin app que descargar. Sin papeleo. Sin perder clientes.</b>
+  </p>
+
+  <div class="flex flex-col sm:flex-row gap-3 justify-center mt-7">
+    <a href="https://wa.me/526145122324?text=Hola%20Llenagenda,%20quiero%20mi%20lugar%20Fundador%20de%20$5,990" target="_blank" class="pulse bg-green-500 hover:bg-green-600 text-white font-bold text-lg px-8 py-4 rounded-full">
+      Quiero mi lugar Fundador → WhatsApp
+    </a>
+    <a href="#como-funciona" class="bg-slate-100 hover:bg-slate-200 font-bold px-8 py-4 rounded-full">Ver cómo funciona (1 min)</a>
+  </div>
+  <p class="text-sm text-slate-500 mt-3">✔ Sin permanencia &nbsp; ✔ Te lo dejamos funcionando en 48 hrs &nbsp; ✔ Garantía a mi riesgo</p>
+
+  <!-- MOCKUP CON LOGO -->
+  <div class="max-w-3xl mx-auto mt-10 bg-slate-900 rounded-3xl p-3 shadow-2xl text-left">
+    <div class="bg-white rounded-2xl overflow-hidden">
+      <div class="bg-green-500 text-white px-5 py-3 font-bold flex justify-between items-center">
+        <span class="flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-white flex items-center justify-center">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="3" width="19" height="18" rx="2" stroke="#22C55E" stroke-width="2"/><rect x="5.5" y="7.5" width="4" height="4" rx="1" fill="#22C55E"/><rect x="10" y="7.5" width="4" height="4" rx="1" fill="#22C55E"/><rect x="14.5" y="7.5" width="4" height="4" rx="1" fill="#22C55E"/><rect x="5.5" y="13.5" width="4" height="4" rx="1" fill="#22C55E"/><rect x="10" y="13.5" width="4" height="4" rx="1" fill="#22C55E"/><rect x="14.5" y="13.5" width="4" height="4" rx="1" fill="#22C55E"/></svg>
+          </span> Llenagenda.com
+        </span><span>● ● ●</span>
+      </div>
+      <div class="p-5">
+        <div class="bg-slate-50 rounded-xl p-4 mb-3"><p class="text-sm text-slate-500">Cliente nuevo</p><p class="font-bold">“Hola, ¿tienes espacio mañana a las 4pm?”</p></div>
+        <div class="bg-green-50 rounded-xl p-4 mb-3 ml-8"><p class="font-bold text-green-700">✅ ¡Claro! Te aparté mañana 4:00pm con Mariana.</p><p class="text-sm">Te mando recordatorio un día antes. ¿Confirmas?</p></div>
+        <div class="flex gap-2 mt-4 flex-wrap"><span class="bg-black text-white text-xs px-3 py-1.5 rounded-full">📅 Cita agendada</span><span class="bg-green-100 text-green-800 text-xs px-3 py-1.5 rounded-full">🔔 Recordatorio enviado</span><span class="bg-amber-100 text-amber-800 text-xs px-3 py-1.5 rounded-full">⭐ Reseña pedida</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- DOLOR -->
+<section class="bg-slate-50 py-12">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-3xl md:text-4xl font-black text-center">¿Te pasa esto todos los días?</h2>
+    <div class="grid md:grid-cols-3 gap-4 mt-8">
+      <div class="bg-white p-6 rounded-2xl border"><p class="text-3xl">📵</p><h3 class="font-bold text-lg mt-2">Llamadas perdidas = dinero perdido</h3><p class="text-slate-600 mt-1">Estás atendiendo y no puedes contestar. Ese cliente se va con tu competencia.</p></div>
+      <div class="bg-white p-6 rounded-2xl border"><p class="text-3xl">😤</p><h3 class="font-bold text-lg mt-2">Te dejan plantado</h3><p class="text-slate-600 mt-1">Agendaste de palabra y no llegó. Perdiste una hora que pudiste cobrar.</p></div>
+      <div class="bg-white p-6 rounded-2xl border"><p class="text-3xl">📒</p><h3 class="font-bold text-lg mt-2">Agenda en papel o en tu cabeza</h3><p class="text-slate-600 mt-1">Se te cruzan citas, se te olvida confirmar y terminas en caos.</p></div>
+    </div>
+    <p class="text-center font-bold text-lg mt-8">Si dijiste <span class="text-red-500">SÍ</span> a una, estás perdiendo <span class="bg-yellow-200 px-2">$8,000 a $15,000 al mes</span> sin darte cuenta.</p>
+  </div>
+</section>
+
+<!-- SOLUCIÓN -->
+<section id="como-funciona" class="max-w-6xl mx-auto px-5 py-12">
+  <h2 class="text-3xl md:text-4xl font-black text-center">Así de fácil funciona</h2>
+  <div class="grid md:grid-cols-3 gap-6 mt-8 text-center">
+    <div><div class="w-14 h-14 bg-green-500 text-white font-black text-2xl rounded-full flex items-center justify-center mx-auto">1</div><h3 class="font-bold mt-3">Cliente te encuentra</h3><p class="text-slate-600">En Google, Instagram o tu link de WhatsApp. Le aparece tu botón “Reservar”.</p></div>
+    <div><div class="w-14 h-14 bg-green-500 text-white font-black text-2xl rounded-full flex items-center justify-center mx-auto">2</div><h3 class="font-bold mt-3">Reserva sola</h3><p class="text-slate-600">Elige servicio, día y hora. Sin que tú hagas nada. Queda en tu calendario.</p></div>
+    <div><div class="w-14 h-14 bg-green-500 text-white font-black text-2xl rounded-full flex items-center justify-center mx-auto">3</div><h3 class="font-bold mt-3">Se confirma sola</h3><p class="text-slate-600">WhatsApp le manda recordatorio automático. Baja tus no-shows hasta 70%.</p></div>
+  </div>
+  <div class="bg-black text-white rounded-3xl p-6 md:p-8 mt-10 grid md:grid-cols-4 gap-6 text-center">
+    <div><p class="text-3xl font-black text-green-400">+32</p><p class="text-sm text-slate-300">Citas extra al mes en promedio</p></div>
+    <div><p class="text-3xl font-black text-green-400">-70%</p><p class="text-sm text-slate-300">Menos clientes que no llegan</p></div>
+    <div><p class="text-3xl font-black text-green-400">48 hrs</p><p class="text-sm text-slate-300">Para tenerlo funcionando</p></div>
+    <div><p class="text-3xl font-black text-green-400">4.9★</p><p class="text-sm text-slate-300">Calificación de negocios</p></div>
+  </div>
+</section>
+
+<!-- PARA QUIÉN -->
+<section class="bg-green-50 py-12">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-3xl font-black text-center">Hecho para negocios como el tuyo</h2>
+    <div class="flex flex-wrap justify-center gap-2 mt-6">
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">💈 Barberías</span>
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">💅 Salones / Uñas</span>
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">🦷 Clínicas / Dentistas</span>
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">💪 Gimnasios / Fisioterapia</span>
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">🔧 Talleres / Estéticas</span>
+      <span class="bg-white px-4 py-2 rounded-full font-bold border">📸 Estudios / Consultorios</span>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="max-w-6xl mx-auto px-5 py-12">
+  <h2 class="text-3xl font-black text-center">Negocios que ya lo usan</h2>
+  <div class="grid md:grid-cols-3 gap-4 mt-8">
+    <div class="border rounded-2xl p-5"><p>⭐⭐⭐⭐⭐</p><p class="mt-2">“Antes perdía 3-4 llamadas al día. Ahora me llegan solas las reservas mientras corto cabello. En el primer mes recuperé la inversión 4 veces.”</p><p class="font-bold mt-3">— Carlos M. • Barbería Centro, Chihuahua</p></div>
+    <div class="border rounded-2xl p-5"><p>⭐⭐⭐⭐⭐</p><p class="mt-2">“Mis clientas ya no me dejan plantada. El recordatorio de WhatsApp es una maravilla. Mis no-shows bajaron muchísimo.”</p><p class="font-bold mt-3">— Daniela R. • Salón de Uñas, Chihuahua</p></div>
+    <div class="border rounded-2xl p-5"><p>⭐⭐⭐⭐⭐</p><p class="mt-2">“Yo no sé de tecnología y me lo dejaron funcionando en 2 días. Solo tuve que mandar mi WhatsApp y mis horarios.”</p><p class="font-bold mt-3">— Dr. Luis A. • Clínica Dental, Chihuahua</p></div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section class="max-w-4xl mx-auto px-5 pb-12">
+  <div class="border-2 border-green-500 rounded-3xl overflow-hidden shadow-xl">
+    <div class="bg-green-500 text-white text-center py-3 font-black">OFERTA FUNDADOR • SOLO ESTA SEMANA</div>
+    <div class="p-6 md:p-8 text-center">
+      <p class="text-slate-500 line-through">Precio normal: $9,990</p>
+      <p class="text-5xl font-black">$5,990 <span class="text-lg font-bold text-slate-600">pago único</span></p>
+      <p class="text-slate-600 mt-2">Tu sistema completo, configurado y funcionando.</p>
+      <ul class="text-left max-w-md mx-auto mt-6 space-y-2 font-medium">
+        <li>✅ Tu página de reservas con tu logo y colores</li>
+        <li>✅ Botón de reserva en Google Maps + Instagram</li>
+        <li>✅ Recordatorios automáticos por WhatsApp</li>
+        <li>✅ Calendario conectado a tu celular</li>
+        <li>✅ Capacitación de 30 min en persona o videollamada</li>
+        <li>✅ Soporte directo por WhatsApp</li>
+      </ul>
+      <div class="bg-yellow-100 border border-yellow-300 rounded-xl p-4 mt-6 font-bold text-sm">
+        🛡️ GARANTÍA A MI RIESGO: Si en 14 días no te llegan más reservas que antes, trabajo a mi riesgo hasta lograrlo.
+      </div>
+      <a href="https://wa.me/526145122324?text=Hola%20Llenagenda,%20quiero%20mi%20lugar%20Fundador%20de%20$5,990" target="_blank" class="pulse inline-block bg-green-500 hover:bg-green-600 text-white font-black text-xl px-10 py-4 rounded-full mt-6">Apartar mi lugar por WhatsApp →</a>
+      <p class="text-xs text-slate-500 mt-3">Sin compromiso. Solo dime tu negocio y te digo si te conviene.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ + FOOTER CON LOGO -->
+<section class="max-w-3xl mx-auto px-5 pb-24">
+  <h2 class="text-2xl font-black text-center">Preguntas frecuentes</h2>
+  <div class="space-y-3 mt-6">
+    <details class="border rounded-xl p-4"><summary class="font-bold cursor-pointer">¿Necesito saber de tecnología?</summary><p class="text-slate-600 mt-2">No. Nosotros lo dejamos listo. Tú solo usas tu WhatsApp como siempre.</p></details>
+    <details class="border rounded-xl p-4"><summary class="font-bold cursor-pointer">¿Y si mis clientes son mayores y no usan apps?</summary><p class="text-slate-600 mt-2">Justo por eso funciona: no descargan nada. Solo abren un link y eligen hora, como mandar un WhatsApp.</p></details>
+    <details class="border rounded-xl p-4"><summary class="font-bold cursor-pointer">¿Cuánto tarda?</summary><p class="text-slate-600 mt-2">48 horas. Te pedimos logo, servicios, horarios y WhatsApp. Nosotros hacemos el resto.</p></details>
+    <details class="border rounded-xl p-4"><summary class="font-bold cursor-pointer">¿Qué pasa si no me funciona?</summary><p class="text-slate-600 mt-2">Tienes 14 días de garantía. Si no ves resultados, te devolvemos tu dinero.</p></details>
+  </div>
+  <div class="flex flex-col items-center gap-2 mt-10">
+    <span class="flex items-center gap-2">
+      <span class="w-9 h-9 rounded-full bg-[#22C55E] flex items-center justify-center">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="3" width="19" height="18" rx="2" stroke="white" stroke-width="1.8"/><rect x="5.5" y="7.5" width="4" height="4" rx="1" fill="white"/><rect x="10" y="7.5" width="4" height="4" rx="1" fill="white"/><rect x="14.5" y="7.5" width="4" height="4" rx="1" fill="white"/><rect x="5.5" y="13.5" width="4" height="4" rx="1" fill="white"/><rect x="10" y="13.5" width="4" height="4" rx="1" fill="white"/><rect x="14.5" y="13.5" width="4" height="4" rx="1" fill="white"/></svg>
+      </span>
+      <span class="text-xl font-extrabold">Llenagenda<span class="text-green-500">.com</span></span>
+    </span>
+    <p class="text-center text-sm text-slate-500">Copyright © 2026, Chihuahua, México </p>
+  </div>
+</section>
+
+<!-- CTA FIJO MÓVIL -->
+<div class="sticky-cta bg-white border-t shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-3 md:hidden">
+  <a href="https://wa.me/526145122324?text=Hola%20Llenagenda,%20quiero%20mi%20lugar%20Fundador" target="_blank" class="block text-center bg-green-500 text-white font-black py-3.5 rounded-full">💬 Apartar mi lugar - $5,990</a>
+</div>
+
+</body>
+</html>
